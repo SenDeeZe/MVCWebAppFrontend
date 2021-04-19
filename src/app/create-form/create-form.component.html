@@ -1,0 +1,19 @@
+<div class="createForm">
+  <form class="form-inline" [formGroup]="form" (ngSubmit)="create()">
+
+    <div class="form-group">
+      <input class="form-control" formControlName="client" type="text" placeholder="Client" id="client">
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" formControlName="date" type="text" placeholder="Date" id="date">
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" formControlName="address" type="text" placeholder="Address" id="address">
+    </div>
+    <div class="form-group">
+      <button class="btn btn-secondary btn-sm" value="Create">Submit</button>
+    </div>
+  </form>
+</div>

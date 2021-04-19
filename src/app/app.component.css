@@ -1,0 +1,23 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+h1{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+input {
+  margin-right: 0.3rem;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}

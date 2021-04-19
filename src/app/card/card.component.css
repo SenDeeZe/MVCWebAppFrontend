@@ -1,0 +1,13 @@
+.card {
+  padding: .5rem .1rem;
+  border: 1px dashed #636363;
+  margin-bottom: 1rem;
+}
+
+.body-card {
+  margin: .5rem 1.5rem;
+}
+
+.card-title {
+  margin-right: .5rem;
+}
